@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 0px;
+}
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.logoutBtn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 4px;
+  height: 40px;
+  margin: 20px;
+}
+.logo {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+}
+.menu-item {
+  margin: 20px;
+}
+.nav-link {
+  color: #64748b;
+  text-decoration: none;
+}
